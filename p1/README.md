@@ -1,5 +1,5 @@
 # Project 1
-+ By: *Fergus Cameron*
++ By: *Fergus  Cameron*
 + Production URL: <http://p1.itsferg.com>
 
 ## Outside resources
