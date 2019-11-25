@@ -91,7 +91,7 @@
 
 <script>
     export default {
-        name: '#app',
+        name: 'app',
         data: function() {
             return {
                 checked: [],
@@ -103,38 +103,39 @@
         },
         methods: {
             randomNumber: function() {
-                if ((app.balance - app.checked.length) < 0) {
+                if ((this.balance - this.checked.length) < 0) {
                     alert("You do not have a enough funds to make this bet\nTry reducing your bet or deposit more $$$");
                     return;
                 }
                 var winnings = 0;
-                app.roundWinnings = "";
-                app.result = "";
+                this.roundWinnings = "";
+                this.result = "";
                 var spinResult = Math.floor(Math.random() * (17));
-                app.isSpinActive = true;
-                app.balance = app.balance - app.checked.length;
-                setTimeout(function() {
-                    app.isSpinActive = false;
+                this.isSpinActive = true;
+                this.balance = this.balance - this.checked.length;
+                var colour = "";
+                setTimeout(() => {
+                    this.isSpinActive = false;
                     if (spinResult % 2 != 0) {
-                        var colour = "red";
+                        colour = "red";
                     } else if (spinResult == 0) {
                         //had to give this a value so it doesnt brake when checking if the colour is in checked even though 0 will pay out later with the other numbers (the colour of 0 means nothing jst there to imitate roulette); 0 % 2 = 0 so i had to add this if statement as 0 isnt black
-                        var colour = "green";
+                        colour = "green";
                     } else {
-                        var colour = "black";
+                        colour = "black";
                     }
 
-                    for (var i = 0; i < app.checked.length; i++) {
-                        if (app.checked[i] == spinResult) {
+                    for (var i = 0; i < this.checked.length; i++) {
+                        if (this.checked[i] == spinResult) {
                             winnings += 16;
                         }
-                        if (app.checked[i] == colour) {
+                        if (this.checked[i] == colour) {
                             winnings += 2;
                         }
                     }
-                    app.result = spinResult;
-                    app.balance += winnings;
-                    app.roundWinnings = winnings;
+                    this.result = spinResult;
+                    this.balance += winnings;
+                    this.roundWinnings = winnings;
                 }, 1000);
             }
 
