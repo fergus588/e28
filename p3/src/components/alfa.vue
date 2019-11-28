@@ -2,7 +2,6 @@
 <div>
     <p></p>
     <p></p>
-    <h1>Classic Alfa Tyres</h1>
     <p>There is a theory that modern tyres are better than old style tyres. In a way that is correct. A
         modern tyre fitted to a modern car, that has been developed to take advantage of what a modern
         tyre

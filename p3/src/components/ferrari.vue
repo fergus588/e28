@@ -2,7 +2,6 @@
 <div>
     <p></p>
     <p></p>
-    <h2>Classic Ferrari Tires</h2>
         <p>
             Because Pirelli were world leaders in crossply sports car tires in the vintage years of front
             engined
