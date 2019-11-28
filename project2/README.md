@@ -1,24 +1,14 @@
-# project2
+# Project 2
++ By: *Fergus  Cameron*
++ Production URL: <http://p2.itsferg.com>
 
-## Project setup
-```
-npm install
-```
+## Build strategy
++ [ ] Integrated
++ [x] Comprehensive
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Outside resources
+[Checked checkboxes](https://vuejs.org/v2/guide/forms.html)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+[setTimeout](https://www.itsolutionstuff.com/post/how-to-use-settimeout-in-vue-jsexample.html)
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
