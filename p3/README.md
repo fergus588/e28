@@ -1,24 +1,13 @@
-# p3
+# Project 3
++ By: *Fergus  Cameron*
++ Production URL: <http://p3.itsferg.com>
 
-## Project setup
-```
-npm install
-```
+## Build strategy
++ [ ] Integrated
++ [x] Comprehensive
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Outside resources
+[Trigger on page load](https://stackoverflow.com/questions/35064845/how-to-trigger-a-method-at-page-load-in-vuejs/48832880)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+[Content](http://www.cinturato.net/)
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
