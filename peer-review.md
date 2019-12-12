@@ -19,7 +19,8 @@ No was easy to follow.
 ### Are there any parts of the code that you found interesting or taught you something new?
 No
 ### Are there any best practices discussed in course material that you feel were not addressed in the code?
-`<template>
+```
+<template>
   <div>
     <div class="slip-style" v-if="notes">
       <div class="slip-title">{{ notes.title }}</div>
@@ -27,7 +28,8 @@ No
       <div class="slip-notes">{{ notes.note }}</div>
     </div>
   </div>
-</template>`
+</template>
+```
 I was unsure why v-if="notes" was nessesary as notes would always return true in this example.
 ### Do you have any additional comments not covered in the above questions?
 No
