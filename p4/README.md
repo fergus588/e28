@@ -1,24 +1,13 @@
-# p3
+# Project 4
++ By: *Fergus  Cameron*
++ Production URL: <http://p4.itsferg.com>
 
-## Project setup
-```
-npm install
-```
+##Features
+Option to save selected tyre size by local storage and return.
+Recommended and optional tyre sizes loaded from mock server depending on page.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Outside resources
+[Trigger on page load](https://stackoverflow.com/questions/35064845/how-to-trigger-a-method-at-page-load-in-vuejs/48832880)
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[Content](http://www.cinturato.net/)
